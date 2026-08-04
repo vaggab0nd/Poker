@@ -43,6 +43,15 @@ function App() {
         <div className="flex items-center gap-4 text-xs text-ftp-text-dim">
           <span>Blinds: ${state.smallBlind}/${state.bigBlind}</span>
           <span>Hand #{state.handNumber}</span>
+          <a
+            href="/doom.html"
+            target="_blank"
+            rel="noreferrer"
+            className="text-red-500 hover:text-red-400 font-bold tracking-widest uppercase"
+            title="A side quest"
+          >
+            Doom
+          </a>
         </div>
       </div>
 
